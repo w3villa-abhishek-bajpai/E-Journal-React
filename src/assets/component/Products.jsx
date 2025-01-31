@@ -45,10 +45,10 @@ function Products() {
 
   return (
     <div className="w-full bg-gray-100 h-[550px] flex justify-center mt-[0px]">
-      <div className="max-w-screen-xl w-full">
+      <div className="max-w-screen-xl w-full pt-2 ">
         <Slider {...settings}>
           {/* First Product */}
-          <div className=" p-4">
+          <div className=" p-4 border-1 border-slate-300 bg-white max-w-[95%]">
             <div className="w-full h-[250px] overflow-hidden">
               <img src={img} alt="Camera" className="w-full h-full object-cover" />
             </div>
@@ -57,7 +57,7 @@ function Products() {
               <div className="a2"><p>Model X100</p></div>
             </div>
             <div>
-              <p className="mt-[1px] px-2">Smart TV</p>
+              <p className="mt-[1px] px-2">Digital Camera</p>
               <div className="mt-[1px] px-2"><span>$725.00</span></div>
               <div className="flex  justify-between mt-1 px-2">
                 <div className="flex  w-[40%] justify-between">
@@ -83,7 +83,7 @@ function Products() {
           </div>
 
           {/* Second Product */}
-          <div className=" p-4">
+          <div className=" p-4  border-1 border-slate-300 bg-white max-w-[95%]">
             <div className="w-full h-[250px] overflow-hidden">
               <img src={images} alt="Camera" className="w-full h-full object-cover" />
             </div>
@@ -118,16 +118,16 @@ function Products() {
           </div>
 
           {/* Third Product */}
-          <div className=" p-4">
+          <div className=" p-4  border-1 border-slate-300 bg-white max-w-[95%] ">
             <div className="w-full h-[250px] overflow-hidden">
-              <img src={image} alt="Camera" className="w-full h-full object-cover" />
+              <img src={images} alt="Camera" className="w-full h-full object-cover" />
             </div>
             <div className="flex justify-between items-center w-full  bg-gray-300 h-[40px] mt-2 px-2">
-              <div className="a1"><a href="s">Sony</a></div>
+              <div className="a1"><a href="s">Canon</a></div>
               <div className="a2"><p>Model X100</p></div>
             </div>
             <div>
-              <p className="mt-[1px] px-2">Headphone</p>
+              <p className="mt-[1px] px-2">Digital Camera</p>
               <div className="mt-[1px] px-2"><span>$725.00</span></div>
               <div className="flex  justify-between mt-1 px-2">
                 <div className="flex  w-[40%] justify-between">
@@ -153,7 +153,7 @@ function Products() {
           </div>
 
           {/* Fourth Product */}
-          <div className=" p-4">
+          <div className=" p-4  border-1 border-slate-300 bg-white max-w-[95%]">
             <div className="w-full h-[250px] overflow-hidden">
               <img src={images} alt="Camera" className="w-full h-full object-cover" />
             </div>

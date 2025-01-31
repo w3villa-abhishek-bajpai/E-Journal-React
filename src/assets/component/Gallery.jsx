@@ -11,11 +11,11 @@ import image8 from '../images/gallery9.jpeg';
 
 const Gallery = () => {
   return (
-    <div className="w-full bg-gray-700 h-full md:mt-[40px]  :h-[400px]">
+    <div className="w-full bg-gray-700 h-full pt-5">
       <div className="max-w-screen-xl mx-auto px-4"> 
         {/* Header Section */}
-        <div className="w-full h-[80px] text-white flex justify-center items-center">
-          <h1 className="text-3xl sm:text-2xl md:text-4xl font-bold">Improved Gallery Module</h1>
+        <div className="w-full  text-white flex justify-center items-center">
+          <h1 className="text-2xl sm:text-2xl md:text-4xl font-bold">Improved Gallery Module</h1>
         </div>
 
         {/* Orange Line Below Header */}

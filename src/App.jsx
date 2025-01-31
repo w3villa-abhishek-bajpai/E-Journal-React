@@ -58,7 +58,7 @@ function App() {
   <Blog/>
   <BlogCr/>
   <Review/> 
-  {/* <Mostview/> */}
+  <Mostview/>
   <SocialIcon/>
  
    <Footer/>

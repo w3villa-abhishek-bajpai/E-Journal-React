@@ -46,28 +46,30 @@ function Beauty() {
     ]
   };
   return (
-    <div className="w-full bg-white h-[280px] flex justify-evenly   mt-[10px]">
-    <div className="max-w-screen-xl w-full  h-[280px]">
-    <div className="slider-container h-[260px] ">
+    <div className="w-full bg-white  flex justify-evenly   pt-6 ">
+    <div className="max-w-screen-xl w-full ">
+    <div className="slider-container">
       <Slider {...settings}>
-        <div className='  h-[240px] relative'>
+        <div className='relative'>
           <h3>
-            <img src={img} alt="image" className='w-[95%] h-[235px]'/>
-            <div className="mob bg-gray-300 w-[79px] h-[34px] text-black ml-[100px] flex justify-center items-center rounded absolute bottom-3"><p>BEAUTY</p></div>
+            <img src={img} alt="image" className='w-[95%] h-[235px] rounded-xl'/>
+<div className="absolute bottom-2 w-full flex justify-center">
+<div className=" bg-gray-300 w-[79px] h-[34px] text-black  flex justify-center items-center rounded "><p>BEAUTY</p></div>
 
+</div>
           </h3>
                              
         </div>
         <div className='  h-[240px] relative'>
         <h3>
-            <img src={imag} alt="image" className='w-[95%] h-[235px]'/>
+            <img src={imag} alt="image" className='w-[95%] h-[235px] rounded-xl'/>
             <div className="mob bg-gray-300 w-[89px] h-[34px] text-black ml-[100px] flex justify-center items-center rounded absolute bottom-3"><p>FOOTWEAR</p></div>
 
           </h3>
         </div>
         <div className='  h-[240px] relative'>
         <h3>
-            <img src={image} alt="image" className='w-[95%] h-[235px]'/>
+            <img src={image} alt="image" className='w-[95%] h-[235px] rounded-xl'/>
             <div className="mob bg-gray-300 w-[109px] h-[36px] text-black ml-[100px] flex justify-center items-center rounded absolute bottom-3"><p>HOME DECOR</p></div>
 
           </h3>
@@ -82,7 +84,7 @@ function Beauty() {
       
         <div className="h-[240px] relative">
         <h3>
-            <img src={img} alt="image" className='w-[95%] h-[235px]'/>
+            <img src={img} alt="image" className='w-[95%] h-[235px] rounded-xl'/>
             <div className="mob bg-gray-300 w-[79px] h-[34px] text-black ml-[100px] flex justify-center items-center rounded absolute bottom-3"><p>BEAUTY</p></div>
 
           </h3>

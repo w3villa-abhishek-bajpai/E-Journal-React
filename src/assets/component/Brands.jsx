@@ -54,10 +54,10 @@ const Brands = () => {
   };
 
   return (
-    <div className="w-full bg-white mt-[10px] py-8">
-      <div className="max-w-screen-xl mx-auto">
+    <div className="w-full bg-white  py-8 ">
+      <div className="max-w-screen-xl mx-auto ">
         {/* Header Section */}
-        <div className="w-full h-[70px] bg-white flex justify-center items-center">
+        <div className="w-full  bg-white flex justify-center items-center">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">Shop By Brands</h1>
         </div>
 
@@ -67,38 +67,38 @@ const Brands = () => {
         {/* Slider Section */}
         <div className="slider-container mt-8">
           <Slider {...settings}>
-            <div className="h-[240px] flex justify-center items-center">
-              <img src={img} alt="Brand 1" className="w-[80%] h-[200px] object-contain border-2 border-slate-200" />
+            <div className="flex justify-center items-center">
+              <img src={img} alt="Brand 1" className="w-[80%]  object-contain " />
             </div>
-            <div className="h-[240px] flex justify-center items-center">
-              <img src={img2} alt="Brand 2" className="w-[80%] h-[200px] object-contain border-2 border-slate-200" />
+            <div className="flex justify-center items-center">
+              <img src={img2} alt="Brand 2" className="w-[80%] object-contain " />
             </div>
-            <div className="h-[240px] flex justify-center items-center">
-              <img src={img3} alt="Brand 3" className="w-[80%] h-[200px] object-contain border-2 border-slate-200" />
+            <div className=" flex justify-center items-center">
+              <img src={img3} alt="Brand 3" className="w-[80%]  object-contain " />
             </div>
-            <div className="h-[240px] flex justify-center items-center">
-              <img src={img4} alt="Brand 4" className="w-[80%] h-[200px] object-contain border-2 border-slate-200" />
+            <div className=" flex justify-center items-center">
+              <img src={img4} alt="Brand 4" className="w-[80%]  object-contain " />
             </div>
-            <div className="h-[240px] flex justify-center items-center">
-              <img src={img5} alt="Brand 5" className="w-[80%] h-[200px] object-contain border-2 border-slate-200" />
+            <div className=" flex justify-center items-center">
+              <img src={img5} alt="Brand 5" className="w-[80%]  object-contain " />
             </div>
-            <div className="h-[240px] flex justify-center items-center">
-              <img src={img6} alt="Brand 6" className="w-[80%] h-[200px] object-contain border-2 border-slate-200" />
+            <div className="flex justify-center items-center">
+              <img src={img6} alt="Brand 6" className="w-[80%]  object-contain " />
             </div>
-            <div className="h-[240px] flex justify-center items-center">
-              <img src={img7} alt="Brand 7" className="w-[80%] h-[200px] object-contain border-2 border-slate-200" />
+            <div className="flex justify-center items-center">
+              <img src={img7} alt="Brand 7" className="w-[80%] object-contain " />
             </div>
-            <div className="h-[240px] flex justify-center items-center">
-              <img src={img8} alt="Brand 8" className="w-[80%] h-[200px] object-contain border-2 border-slate-200" />
+            <div className="flex justify-center items-center">
+              <img src={img8} alt="Brand 8" className="w-[80%]  object-contain " />
             </div>
-            <div className="h-[240px] flex justify-center items-center">
-              <img src={img9} alt="Brand 9" className="w-[80%] h-[200px] object-contain border-2 border-slate-200" />
+            <div className="flex justify-center items-center">
+              <img src={img9} alt="Brand 9" className="w-[80%] object-contain " />
             </div>
-            <div className="h-[240px] flex justify-center items-center">
-              <img src={img10} alt="Brand 10" className="w-[80%] h-[200px] object-contain border-2 border-slate-200" />
+            <div className="flex justify-center items-center">
+              <img src={img10} alt="Brand 10" className="w-[80%]  object-contain " />
             </div>
-            <div className="h-[240px] flex justify-center items-center">
-              <img src={img11} alt="Brand 11" className="w-[80%] h-[200px] object-contain border-2 border-slate-200" />
+            <div className=" flex justify-center items-center">
+              <img src={img11} alt="Brand 11" className="w-[80%]  object-contain " />
             </div>
           </Slider>
         </div>

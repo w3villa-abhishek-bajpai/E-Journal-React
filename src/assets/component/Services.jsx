@@ -2,10 +2,10 @@ import React from 'react';
 
 const Services = () => {
   return (
-    <div className="bg-[#3A4855]  flex justify-center py-4">
-      <div className="w-full max-w-screen-xl">
-        <div className="w-full flex items-center ">
-          <ul className="flex flex-wrap  sm:justify-start sm:flex-row md:justify-start lg:justify-start w-full h-full text-white">
+    <div className="bg-[#3A4855]  flex justify-center py-4 ">
+      <div className="w-full max-w-screen-xl  ">
+        <div className="w-full flex items-center  flex justify-between">
+          <ul className="flex flex-wrap  sm:justify-start sm:flex-row md:justify-start lg:justify-start w-full h-full text-white ">
             {/* First row: Free Shipping and Free Returns */}
             <li className="flex items-center w-[50%]   sm:w-1/4 md:w-1/4 lg:w-1/4 p-2 ">
               <div className="flex items-center justify-center text-[#E96630] text-xl p-2 rounded-full border-2 border-blue-500">
