@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="w-full bg-gray-100 flex justify-evenly  items-center">
+    <div className="w-full bg-gray-100 flex justify-evenly  items-center sm:px-0 px-1">
       <div className="flex justify-between max-w-screen-xl w-full ">
         {/* Name Section */}
         <div className="w-[200px] flex items-center py-4 sm:w-[200px] ">

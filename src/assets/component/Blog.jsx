@@ -9,7 +9,7 @@ const Blog = () => {
         
         {/* Title Section */}
         <div className="w-full  bg-gray-100 flex justify-center items-center pt-3 ">
-          <h1 className="text-5xl sm:text-3xl md:text-4xl font-bold text-center">From Our Blog</h1>
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center">From Our Blog</h1>
         </div>
 
         {/* Orange Line Below Title */}

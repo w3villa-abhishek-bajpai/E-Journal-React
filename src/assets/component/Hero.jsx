@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div className="hidden w-full bg-blue-800 md:flex justify-center">
+    <div className="hidden w-full bg-blue-800 md:flex justify-center overflow-hidden">
       <div className="flex justify-between max-w-screen-xl w-full">
         {/* Left Section */}
         <div className="w-[22%] bg-yellow-400  p-2 flex gap-2 items-center">
@@ -17,7 +17,7 @@ const Hero = () => {
           <ul className="flex gap-5 justify-between">
             <li>MULTILEVEL</li>
             <li>MEGA MENU</li>
-            <li>FULLWIDTH</li>
+            <li className='lg:block hidden'>FULLWIDTH</li>
           </ul>
         </div>
 

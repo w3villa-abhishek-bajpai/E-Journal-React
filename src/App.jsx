@@ -39,7 +39,7 @@ function App() {
   
 
   return (
-    <div className='bg-slate-50'>
+    <div className='bg-slate-50 box-border'>
       
   <StripHeader/>
   <Header/>
@@ -48,11 +48,11 @@ function App() {
   <Services/> 
   <Buy/>
 
-  <Beauty/>
+  <Beauty/> 
   <Featured/>
-  <Products/>
+  <Products/> 
   <Fproduct/>
-  {/* <FeaturedCategory/> */}
+ 
   <Brands/>
   <Gallery/>
   <Blog/>

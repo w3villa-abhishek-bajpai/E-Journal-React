@@ -10,7 +10,7 @@ import { TbTruckDelivery } from "react-icons/tb";
 function StripHeader() {
   return (
     <>
-      <div className="w-full bg-white flex justify-evenly items-center">
+      <div className="w-full bg-white flex justify-evenly items-center px-1 text-[12px] sm:text-normal sm:px-0">
         <div className="flex justify-between max-w-screen-xl w-full">
           {/* Left Section */}
           <div className="hidden md:flex items-center text-slate-600">
