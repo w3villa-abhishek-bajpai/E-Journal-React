@@ -44,7 +44,7 @@ function Beauty() {
   };
 
   return (
-    <div className="w-full bg-white flex justify-evenly pt-6 my-5 overflow-hidden">
+    <div className="w-full bg-white flex justify-evenly pt-6 my-5 overflow-hidden ">
       <div className="max-w-screen-xl w-full px-4">
         <div className="max-w-full overflow-hidden pb-10">
           <Slider {...settings}>
